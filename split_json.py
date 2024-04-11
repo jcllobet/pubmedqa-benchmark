@@ -35,7 +35,7 @@ def split_json_file(input_file_path, output_prefix, parts=4):
 
 # Example usage
 current_dir = os.path.dirname(__file__)
-input_file_path = os.path.join(current_dir, 'data', 'contexts_pqau.json')
-output_prefix = os.path.join(current_dir, 'data', 'contexts_pqau_split')
+input_file_path = os.path.join(current_dir, 'data', 'qapairs_pqau.json')
+output_prefix = os.path.join(current_dir, 'data', 'qapairs_pqau_split')
 
 split_json_file(input_file_path, output_prefix)
