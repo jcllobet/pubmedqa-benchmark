@@ -70,12 +70,14 @@ To evaluate baseline models run:
 To evaluate RAG run:
 
 - [llamarun.ipynb](https://github.com/jcllobet/pubmedqa-benchmark/blob/main/llamarun.ipynb)
-- with the relevant packages in requirements.txt and OPENAI and NOMIC keys:
-  `cp .env.example .env`
+- with the relevant packages in requirements.txt and OPENAI and NOMIC keys: `cp .env.example .env`
 
-```pip install -r requirements.txt
-    # or
-    conda install --file requirements.txt```
+```
+pip install -r requirements.txt
+# or
+conda install --file requirements.txt
+```
+
 You can run all the cells directly. The only parameter you need to change is the `model_name` in the `llamarun.ipynb` notebook with one of the relevant models from OpenAI API [here](https://platform.openai.com/docs/models). Given the amount of time that it takes to upload the RAG vector DB, it is better to not re-run the entire notebook and just run the cells beneath the model name.
 
 _Note: due to the stochastic nature of such models, the results may vary slightly between runs. You can set a seed and freeze it if you want the same results across different runs._
