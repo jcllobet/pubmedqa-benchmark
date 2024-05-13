@@ -35,7 +35,7 @@ If all the steps were performed correctly, you will be able to find the files ne
 
 ### Dataset Analysis
 
-Data Analysis was conducted in notebook - ``Data/```
+Data Analysis was conducted in notebook - `Data/`
 We uploaded the dataset to Nomic embeddings, the resulting embedding space is visualized and publicly stored via
 this [map link](https://atlas.nomic.ai/data/md927/pubmedqaunlabeled/map).
 
