@@ -73,7 +73,7 @@ To evaluate RAG run:
 - with the relevant packages in requirements.txt and OPENAI and NOMIC keys:
   `cp .env.example .env`
 
-````pip install -r requirements.txt
+```pip install -r requirements.txt
     # or
     conda install --file requirements.txt```
 You can run all the cells directly. The only parameter you need to change is the `model_name` in the `llamarun.ipynb` notebook with one of the relevant models from OpenAI API [here](https://platform.openai.com/docs/models). Given the amount of time that it takes to upload the RAG vector DB, it is better to not re-run the entire notebook and just run the cells beneath the model name.
@@ -84,7 +84,7 @@ _Note: If you want to run it from the exact same data we originally ran the resu
 
 * Embeddings in RAG: All unlabeled data from PubMedQA train set
 * Input prompt:
-````
+```
 
 Answer question {QUESTION}. Answer can only be one word and it should be either 'yes', 'no', or 'maybe'
 
@@ -115,7 +115,7 @@ To evaluate RAG run:
 
 Answer question {QUESTION}. Answer can only be one word and it should be either 'yes', 'no', or 'maybe'
 
-````
+```
 
 Results when context is excluded from the question:
 
@@ -147,7 +147,7 @@ numpy
 llama-index
 matplotlib
 nest_asyncio
-````
+```
 
 ## References & Resources
 
